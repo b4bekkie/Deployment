@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://bekkie-etstate.vercel.app',
+        target: 'https://deployment-server-kappa.vercel.app/',
         secure: false,
       },
     },
