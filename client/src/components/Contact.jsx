@@ -12,7 +12,7 @@ export default function Contact({ listing }) {
   useEffect(() => {
     const fetchLandlord = async () => {
       try {
-        const res = await fetch(`${API_BASE_URL}/api/user/${listing.userRef}`); 
+        const res = await fetch(`https://deployment-server-kappa.vercel.app/api/user/${listing.userRef}`); 
         const data = await res.json();
         setLandlord(data);
       } catch (error) {
