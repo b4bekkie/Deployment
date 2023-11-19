@@ -27,7 +27,7 @@ app.use(express.json())
 app.use(cookieParser());
 
 app.use(cors({
-  origin: 'https://bekkie-etstate-wnqa.vercel.app', // Replace with your frontend URL
+  origin: 'https://deployment-six-tau.vercel.app', // Replace with your frontend URL
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Allows cookies to be sent from the frontend
 }));
