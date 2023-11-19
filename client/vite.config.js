@@ -7,7 +7,7 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
 
   server: {
-     proxy: 'https://deployment-server-kappa.vercel.app',
+    //  proxy: 'https://deployment-server-kappa.vercel.app',
   },
   plugins: [react()],
   
