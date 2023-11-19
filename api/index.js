@@ -29,7 +29,7 @@ app.use(cookieParser());
 app.use(cors({
   origin: 'https://deployment-six-tau.vercel.app', // Replace with your frontend URL
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-  credentials: true, // Allows cookies to be sent from the frontend
+   // Allows cookies to be sent from the frontend
 }));
 
 
